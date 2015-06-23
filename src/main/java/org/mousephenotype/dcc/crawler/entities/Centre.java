@@ -98,7 +98,12 @@ public class Centre implements Serializable {
     public Centre() {
     }
 
-    public Centre(String shortName, String fullName, String address, boolean isActive, String email) {
+    public Centre(
+            String shortName,
+            String fullName,
+            String address,
+            boolean isActive,
+            String email) {
         this.shortName = shortName;
         this.fullName = fullName;
         this.address = address;
@@ -107,7 +112,13 @@ public class Centre implements Serializable {
         this.created = new Date();
     }
 
-    public Centre(String shortName, String fullName, String address, boolean isActive, String email, String phone) {
+    public Centre(
+            String shortName,
+            String fullName,
+            String address,
+            boolean isActive,
+            String email,
+            String phone) {
         this.shortName = shortName;
         this.fullName = fullName;
         this.address = address;

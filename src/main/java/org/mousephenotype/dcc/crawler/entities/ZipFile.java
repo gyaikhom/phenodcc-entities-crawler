@@ -94,7 +94,11 @@ public class ZipFile implements Serializable {
         this.fileName = fileName;
     }
     
-    public ZipFile(String fileName, Centre centreId, Date created, Long inc,
+    public ZipFile(
+            String fileName,
+            Centre centreId,
+            Date created,
+            Long inc,
             int sizeBytes) {
         this.fileName = fileName;
         this.centreId = centreId;
@@ -103,8 +107,13 @@ public class ZipFile implements Serializable {
         this.sizeBytes = sizeBytes;
     }
 
-    public ZipFile(String fileName, Centre centreId, Date created, Long inc,
-            int sizeBytes, String contentMd5) {
+    public ZipFile(
+            String fileName,
+            Centre centreId,
+            Date created,
+            Long inc,
+            int sizeBytes,
+            String contentMd5) {
         this.fileName = fileName;
         this.centreId = centreId;
         this.created = created;

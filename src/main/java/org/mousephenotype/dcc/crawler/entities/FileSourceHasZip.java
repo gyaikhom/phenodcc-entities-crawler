@@ -84,13 +84,18 @@ public class FileSourceHasZip implements Serializable {
     public FileSourceHasZip() {
     }
 
-    public FileSourceHasZip(FileSource fileSourceId, ZipAction zaId) {
+    public FileSourceHasZip(
+            FileSource fileSourceId,
+            ZipAction zaId) {
         this.fileSourceId = fileSourceId;
         this.zaId = zaId;
         this.numRetries = 0;
     }
 
-    public FileSourceHasZip(FileSource fileSourceId, ZipAction zaId, short numRetries) {
+    public FileSourceHasZip(
+            FileSource fileSourceId,
+            ZipAction zaId,
+            short numRetries) {
         this.fileSourceId = fileSourceId;
         this.zaId = zaId;
         this.numRetries = numRetries;

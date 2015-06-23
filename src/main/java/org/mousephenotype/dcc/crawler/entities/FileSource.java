@@ -103,7 +103,13 @@ public class FileSource implements Serializable {
         this.id = id;
     }
 
-    public FileSource(Short id, String hostname, String username, String accesskey, Date created, Date lastUpdate) {
+    public FileSource(
+            Short id,
+            String hostname,
+            String username,
+            String accesskey,
+            Date created,
+            Date lastUpdate) {
         this.id = id;
         this.hostname = hostname;
         this.username = username;

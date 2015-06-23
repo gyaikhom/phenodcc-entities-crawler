@@ -69,7 +69,10 @@ public class ZipLog implements Serializable {
     public ZipLog() {
     }
 
-    public ZipLog(ZipDownload zipId, AnException exceptionId, String message) {
+    public ZipLog(
+            ZipDownload zipId,
+            AnException exceptionId,
+            String message) {
         this.message = message;
         this.exceptionId = exceptionId;
         this.zipId = zipId;

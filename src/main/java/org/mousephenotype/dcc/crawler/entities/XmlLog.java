@@ -73,7 +73,10 @@ public class XmlLog implements Serializable {
     public XmlLog() {
     }
 
-    public XmlLog(XmlFile xmlId, AnException exceptionId, String message) {
+    public XmlLog(
+            XmlFile xmlId,
+            AnException exceptionId,
+            String message) {
         this.xmlId = xmlId;
         this.exceptionId = exceptionId;
         this.message = message;
@@ -81,7 +84,11 @@ public class XmlLog implements Serializable {
         this.col = 0;
     }
 
-    public XmlLog(XmlFile xmlId, AnException exceptionId, String message, Integer line) {
+    public XmlLog(
+            XmlFile xmlId,
+            AnException exceptionId,
+            String message,
+            Integer line) {
         this.xmlId = xmlId;
         this.exceptionId = exceptionId;
         this.message = message;
@@ -89,7 +96,12 @@ public class XmlLog implements Serializable {
         this.col = 0;
     }
 
-    public XmlLog(XmlFile xmlId, AnException exceptionId, String message, Integer line, Integer col) {
+    public XmlLog(
+            XmlFile xmlId,
+            AnException exceptionId,
+            String message,
+            Integer line,
+            Integer col) {
         this.xmlId = xmlId;
         this.exceptionId = exceptionId;
         this.message = message;

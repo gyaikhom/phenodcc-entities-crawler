@@ -91,7 +91,11 @@ public class ZipAction implements Serializable {
     public ZipAction() {
     }
 
-    public ZipAction(ZipFile zipId, ProcessingType todoId, Phase phaseId, AStatus statusId) {
+    public ZipAction(
+            ZipFile zipId,
+            ProcessingType todoId,
+            Phase phaseId,
+            AStatus statusId) {
         this.zipId = zipId;
         this.todoId = todoId;
         this.phaseId = phaseId;

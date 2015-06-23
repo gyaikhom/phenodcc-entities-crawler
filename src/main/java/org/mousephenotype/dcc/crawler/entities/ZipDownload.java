@@ -92,7 +92,12 @@ public class ZipDownload implements Serializable {
     public ZipDownload() {
     }
 
-    public ZipDownload(FileSourceHasZip zfId, Date request, Date received, Phase phaseId, AStatus statusId) {
+    public ZipDownload(
+            FileSourceHasZip zfId,
+            Date request,
+            Date received,
+            Phase phaseId,
+            AStatus statusId) {
         this.zfId = zfId;
         this.request = request;
         this.received = received;
